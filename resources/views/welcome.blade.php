@@ -6,7 +6,8 @@
     <title>Document</title>
 </head>
 <body>
-  
-    <h1>Welcome to Laravel</h1>
+    <a href="{{ route('tareas.index') }}" class="btn btn-primary">
+        Ver Tareas
+    </a>
 </body>
-</html>
+</html
