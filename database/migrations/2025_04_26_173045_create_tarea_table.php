@@ -14,7 +14,7 @@ return new class extends Migration
         Schema::create('tarea', function (Blueprint $table) {
             $table->id();
             $table->string('titulo')->nullable();
-            $table->string('escripcion')->nullable();
+            $table->string('descripcion')->nullable();
             $table->string('estado')->nullable();
             $table->date('fecha_cumplimiento')->nullable();
             $table->timestamps();
